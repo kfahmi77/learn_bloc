@@ -1,0 +1,4 @@
+Berisi kode yang berhubungan dengan penyimpanan data. 
+Ini termasuk model (kelas yang mendefinisikan bagaimana data disimpan),
+data sources (kelas yang mendefinisikan bagaimana data diambil, 
+misalnya dari API atau database lokal), dan implementasi repository.

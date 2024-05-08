@@ -1,0 +1,4 @@
+Berisi kode yang berhubungan dengan logika bisnis.
+Ini termasuk entitas (kelas yang mendefinisikan struktur data), 
+use cases (kelas yang mendefinisikan operasi yang dapat dilakukan pada data),
+dan interface repository.
