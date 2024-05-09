@@ -8,10 +8,10 @@ sealed class UserEvent extends Equatable {
 }
 
 class LoadUser extends UserEvent {
-  final String username;
+  final String id;
 
-  const LoadUser(this.username);
+  const LoadUser(this.id);
 
   @override
-  List<Object> get props => [username];
+  List<Object> get props => [id];
 }

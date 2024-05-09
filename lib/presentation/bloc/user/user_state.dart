@@ -9,7 +9,9 @@ sealed class UserState extends Equatable {
 
 final class UserInitial extends UserState {}
 
-final class UserLoading extends UserState {}
+final class UserLoading extends UserState {
+  
+}
 
 final class UserLoaded extends UserState {
   final User user;

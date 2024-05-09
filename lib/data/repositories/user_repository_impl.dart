@@ -9,8 +9,8 @@ class UserRepositoryImpl implements UserRepository{
   UserRepositoryImpl({required this.remotedataSourceUser});
 
   @override
-Future<User> getUser() async {
-   final userModel = await remotedataSourceUser.getUser();
-   return userModel.toDomain();
+Future<User> getUser(String searchTerm) async {
+  final userModel = await remotedataSourceUser.getUser(searchTerm);
+  return userModel.toDomain();
 }
 }
